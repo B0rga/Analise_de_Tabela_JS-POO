@@ -1,0 +1,94 @@
+body{
+    background-color: #1C1C1C;
+    font-size: 14pt;
+}
+
+*{
+    font-family: 'Roboto', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: lavender;
+    text-align: center;
+    margin: 30px;
+}
+
+.container{
+    margin: auto;
+    height: 250px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.274);
+    border: 1px solid lavender;
+    color: lavender;
+}
+
+input[type=number]{
+    background: none;
+    border: solid 1px lavender;
+    outline: 0;
+    color: lavender;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: 8px; 
+    width: 250px;
+    padding: 6px;
+    font-size: 12pt;
+}
+
+small{
+    font-size: 12pt;
+}
+
+input[type=number]::placeholder{
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=button]{
+    background: #1C1C1C;
+    color: lavender;
+    border: solid 1px lavender;
+    font: normal 12pt 'Roboto Mono', monospace;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: lavender;
+    color: #1C1C1C;
+    transition: 0.2s;
+}
+
+#resultado{
+    visibility: hidden;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+select{
+    outline: 0;
+    background-color: #1C1C1C;
+    color: lavender;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12pt;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+footer{
+    color: lavender;
+    text-align: center;
+    margin: 10px;
+}

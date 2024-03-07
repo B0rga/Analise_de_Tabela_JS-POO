@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Análise de Números</h1>
+    </header>
+    <div class="container">
+        <div>
+            <input type="number" id="num" placeholder="Insira um número de 1 a 100">
+            <input type="button" value="Adicionar" onclick="analisador.Salvar()"><br>
+            <small></small>
+        </div>
+        <div id="resultado">
+            <div>
+                <select size="6">
+                </select><br>
+                <input type="button" value="Analisar" onclick="analisador.Analisar()">
+                <input type="button" value="Limpar" onclick="analisador.LimparResultado()">
+            </div>
+            <div style="display: grid; justify-content:center; width: 100%; margin-top: 10px;">
+                <p id="quantidade"></p>
+                <p id="maiorNumero"></p>
+                <p id="menorNumero"></p>
+                <p id="somaNumeros"></p>
+                <p id="media"></p>
+            </div> 
+        </div>       
+    </div>
+    <footer>
+        <p>&copy; B0rga</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
